@@ -1,0 +1,187 @@
+2   SALÃO DE FESTAS          N          
+66  COBERTURA                N          
+24  ACADEMIA                 N          
+49  LAVABO                   N          
+50  GABINETE                 N          
+4   BANHEIRA                 N          
+52  DEPENDENCIA EMPREGADA    N          
+121 ESPERA P/ARCONDICIONADO  N          
+154 12º ANDAR                N          
+55  LIVING C/ TABUÃO         N          
+56  SALA DE JANTAR           N          
+5   GARAGEM                  S          
+6   PLAYGROUND               N          
+7   CRECHE                   N          
+8   SHOPPING                 N          
+20  CHURRASQUEIRA            Sun        
+21  FARMACIA                 N          
+22  LAREIRA                  N          
+26  AR CENTRAL               N          
+27  SUPERMERCADO             N          
+106 AREA TOTAL               N          
+114 QUINTAL                  N          
+182 PRATELEIRAS              N          
+74  TV A CABO                N          
+32  PORTARIA-24 HS           N          
+33  SAUNA                    N          
+134 TERREO                   N          
+35  TV A CABO                N          
+36  INTERNET                 N          
+38  QUADRA ESPORTIVA         N          
+39  TRANSPORTE COLETIVO      N          
+40  TRANSPORTE SELETIVO      N          
+41  ESTACIONAMENTO VISITANTESN          
+42  GARAGEM ROTATIVA         N          
+43  SALA DE GINASTICA        N          
+45  LAVANDERIA               N          
+46  POSTO DE GASOLINA        N          
+183 BANHEIRO SOCIAL          N          
+82  ZELADOR                  N          
+58  SUÍTE                    S          
+59  SUBSOLO                  N          
+60  COZINHA                  N          
+69  PORTEIRO ELETRONICO      N          
+107 AREA REAL                N          
+62  GAS CENTRAL              N          
+68  HALL                     N          
+84  AREA DE SERV             N          
+91  PISO DECORFLEX           N          
+63  DESPENSA                 N          
+64  PISO EMBORRACHADO        N          
+70  MEZANINO                 N          
+71  DEPOSITO                 N          
+65  VESTIARIO                N          
+75  PISO CARPETE             N          
+76  SEMI-MOBILIADO           N          
+77  MOBILIADO                N          
+78  CARPETE                  N          
+173 PISO DE CERÂMICA         N          
+80  PISO PARQUET             N          
+81  FORRACAO MULTIPISO       N          
+87  GAS CENTRAL              N          
+83  W.C AUX                  N          
+72  AREA C/TANQUE            N          
+88  CHURRASQUEIRA            N          
+31  OTIMA ILUMINAÇÃO         N          
+89  DUPLEX                   N          
+90  PATIO                    N          
+130 RECEPÇÃO                 N          
+67  JUNKERS                  N          
+92  AGUA QUENTE              N          
+97  Piscina                  N          
+73  COPA                     N          
+93  SALA DE ESTAR            N          
+94  CANIL                    N          
+95  JARDIM                   N          
+96  PISO LAMINADO            N          
+79  SUITE C/HIDRO            N          
+98  VISTA                    N          
+169 COZINHA CONJUGADA C/ AREAN          
+99  CASA CONDOMINIO FECHADO  S          
+61  BANHEIRO                 N          
+102 ALARME EM TODO PREDIO    S          
+103 CIRCUITO INTERNO DE TV   N          
+101 LOJA E SOB -LOJA         S          
+108 AREA POR ANDAR           N          
+187 EXAUSTOR                 N          
+188 SALA CONJUGADA C/ COZINHAN          
+29  PISCINA                  N          
+155 BANHEIRO C/ HIDRO        N          
+105 ENTRE 24 OUTUBRO E CRIST.N          
+53  BOX COBERTO              S          
+118 COZINHA C/ ARMÁRIO       N          
+109 PREDIO INTERLIGADO       N          
+117 COMERCIAL                N          
+104 SOM AMBIENTAL            N          
+119 PISO FRIO                N          
+156 ANTENA COLETIVA          N          
+110 BANHEIRO DE EMPREGADA    N          
+116 ALVENARIA                N          
+123 FRENTE                   N          
+120 SACADA FECHADA  C/ CHURQ N          
+124 LATERAL                  N          
+125 FUNDOS                   N          
+135 4º ANDAR                 N          
+115 PREDIO CLASSE A          N          
+126 FRENTE                   N          
+132 PISO TABUÃO              N          
+127 2º ANDAR                 N          
+170 INSTALAÇÃO P/ TV A CABO  N          
+129 RESIDENCIAL              N          
+171 ESPERA PARA TELEFONE     N          
+172 CORTINA                  N          
+133 COZINHA AMERICANA        N          
+157 ANTENA COLETIVA          N          
+174 PISO MULTIPISO           N          
+136 7º ANDAR                 N          
+137 ANDAR C/ RECEPÇÃO        N          
+34  ELEVADOR                 S          
+138 COZINHA C/ TANQUE        N          
+158 5º ANDAR                 N          
+140 8º ANDAR                 N          
+28  LIVING                   N          
+141 BANHEIRO AUXILIAR        N          
+142 LAMINADO                 N          
+159 PORTA DE FERRO           N          
+139 BOX P/ CARRO             N          
+144 SALA DE ESPERA           N          
+175 CLOSET                   N          
+145 SALA GRANDE              N          
+176 GARAGEM P/ 2 CARROS      N          
+177 CENTRAL                  N          
+146 PORTARIA                 N          
+147 3º ANDAR                 N          
+178 ENSOLARADO               N          
+148 9° ANDAR                 N          
+149 11º ANDAR                N          
+150 SACADA C/ CHURRASQUEIRA  N          
+151 6° ANDAR                 N          
+152 PISO MADEIRA             N          
+179 VENTILADOR DE TETO       N          
+153 PORTARIA                 N          
+86  AR CONDICIONADO          S          
+128 1º ANDAR                 N          
+160 ARMARIOS AEREOS          S.         
+131 CONJUNTO                 S.         
+161 MEIO                     N          
+162 ANDAR                    N          
+180 DIVISORIA DE MADEIRA     N          
+143 VISTA PANORAMICA         N          
+54  ARMÁRIOS EMBUTIDOS       N          
+164 COFRE                    N          
+165 BOX DESCOBERTO           N          
+166 PISO FORRAÇÃO            N          
+25  DORMITORIO               S          
+189 ESTACIONAMENTO ROTATIVO  N          
+167 EST.EM FRENTE OPCIONAL   N          
+168 BANHEIRO C/ BOX VIDRO    N          
+122 SALA                     S          
+100 ESTACIONAMENTO COLETIVO  N          
+181 LIVING C/ SACADA         N          
+184 BANHEIRO BOX ACRILICO    N          
+185 SACADA FECHADA C/TANQUE  N          
+57  TERRAÇO                  N          
+30  SACADA                   N          
+186 PISO PAVIFLEX            N          
+191 DMAE                     N          
+9015VIVAREAL-NAO-PUBLICAR    N          
+9016ZAPIMOVEIS-NAO-PUBLICAR  N          
+9017ZAPIMOVEIS-SUPER-DESTAQUEN          
+9006CHAVEFACIL-NAO-PUBLICAR  N          
+9021MAPIT-IPTU               N          
+9022MAPIT-CONDOMINIO         N          
+9023MAPIT-AREATOTAL          N          
+9024MAPIT-AREAUTIL           N          
+9007OLX-NAO-PUBLICAR         N          
+9032VIVAREAL-DESTAQUE LOCACAON          
+9033VIVAREAL-DESTAQUE VENDA  N          
+9034ZAP-DESTAQUE LOCACAO     N          
+9035ZAP-DESTAQUE VENDA       N          
+9036IMOVELWEB-DESTAQ. LOCACAON          
+9037IMOVELWEB-DESTAQUE VENDA N          
+9040CHAVEFACIL-DESTAQ.LOCACAON          
+9041CHAVEFACIL - DESTAQ.VENDAN          
+9025MAPIT-VAGASGARAGEM       N          
+9026MAPIT-VISITAACOMPANHADA  N          
+9008IMOVELWEB-NAO-PUBLICAR   N          
+9042IMOVELWEB-SUPER-DESTAQUE N          

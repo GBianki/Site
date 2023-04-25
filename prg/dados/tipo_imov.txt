@@ -1,0 +1,43 @@
+26  Andar                         CNS
+1   Apartamento                   RSS
+64  Área Preservação Permanente   RNN
+7   Box                           RNS
+14  Box Comerc.                   CNS
+12  Casa Comer.                   CNS
+30  Casa em Condomínio            RSS
+4   Casa Resid.                   RSS
+36  Chácara                       RNN
+38  Clube                         RNS
+5   Cobertura                     RSS
+9   Conjunto                      CNS
+59  Consultorio                   CNN
+15  Depósito                      CNS
+65  DUPLEX                        RSS
+21  Estacion. Comerc.             CNS
+22  Estacion. Resid.              RNS
+3   Flat                          RNS
+23  Garag. Comerc.                CNS
+24  Garag. Resid.                 RNS
+2   JK                            RNS
+29  Loft                          RSS
+10  Loja                          CNS
+31  Loja em Condomínio            CNS
+25  Lote                          RNN
+27  Outros Comerc.                CNN
+28  Outros Resid.                 RNN
+16  Pavilhão                      CNS
+35  Pavimento                     RNN
+32  Pousada                       CNS
+17  Prédio                        CNS
+8   Sala                          CNS
+13  Salão                         CNN
+33  Sítio                         RNN
+6   Sobrado                       RSS
+11  Sobre-Loja                    CNS
+60  Studio                        RNS
+34  Subsolo                       CNS
+20  Telefone Comerc.              CNN
+19  Telefone Resid.               RNN
+57  Terraço                       CNN
+18  Terreno                       CNN
+37  Vitrina                       CNN

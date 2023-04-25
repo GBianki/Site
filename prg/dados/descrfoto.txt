@@ -1,0 +1,64 @@
+Hall                                              ha                  
+Quadra de Esportes                                es                  
+Área de Serviço                                   ar                  
+Banheiro Social                                   ba                  
+Banheiro Suíte                                    bs                  
+Cobertura                                         cb                  
+Cozinha                                           co                  
+Copa                                              cp                  
+Dependência                                       de                  
+Dormitório                                        do                  
+Externa                                           ex                  
+Fachada                                           fa                  
+Foto                                              fo                  
+Garagem                                           ga                  
+Interna                                           in                  
+Lavanderia                                        la                  
+Loja                                              lo                  
+Lavabo                                            lv                  
+Sala                                              sa                  
+Sacada                                            sc                  
+Suíte                                             su                  
+Tour                                              to                  
+Vista                                             vi                  
+Living                                            li                  
+Gabinete                                          gb                  
+Sala de Jantar                                    ja                  
+Closet                                            cl                  
+Estar Íntimo                                      ei                  
+Sala de Jogos                                     sj                  
+Piscina                                           ps                  
+Salão de Festas                                   sf                  
+Sala de Brinquedo                                 br                  
+WC Auxiliar                                       wa                  
+WC Cobertura                                      wc                  
+Cobertura/Terraço                                 ct                  
+Churrasqueira                                     ch                  
+Playground                                        pl                  
+Depósito                                          dp                  
+Circulação                                        ci                  
+                                                  xx                  
+Box                                               bx                  
+Imediações                                        im                  
+Jardim                                            jd                  
+Patio                                             pt                  
+Elevador                                          el                  
+Entrada do Prédio                                 ep                  
+Guarita de Vigilância                             gv                  
+Sala de Ginástica                                 sg                  
+Andar                                             an                  
+Conjunto                                          cj                  
+Portaria                                          po                  
+Bicicletario                                      bi                  
+Estacionamento                                    et                  
+Mezanino                                          me                  
+Banheiro                                          bn                  
+Infraestrutura                                    ie                  
+Academia                                          ac                  
+Escritório                                        ec                  
+Video do imovel                                   vd                  
+Planta do Imóvel                                  pi                  
+Siglas das pecas do imovel para identificar foto                      
+Banheira                                          be                  
+Rooftop                                           rt                  
+Recepção                                          re                  

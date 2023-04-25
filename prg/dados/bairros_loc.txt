@@ -1,0 +1,90 @@
+13460ABERTA DOS MORROS                                           7994  
+13461AGRONOMIA                                                   7994  
+39026ALTO PETROPOLIS                                             7994  
+13462ANCHIETA                                                    7994  
+13463ARQUIPELAGO                                                 7994  
+13464AUXILIADORA                                                 7994  
+13465AZENHA                                                      7994  
+13466BELA VISTA                                                  7994  
+13467BELEM NOVO                                                  7994  
+13468BELEM VELHO                                                 7994  
+13469BOA VISTA                                                   7994  
+13470BOM FIM                                                     7994  
+13471BOM JESUS                                                   7994  
+13472CAMAQUA                                                     7994  
+13473CASCATA                                                     7994  
+13474CAVALHADA                                                   7994  
+13475CENTRO                                                      7994  
+13476CHACARA DAS PEDRAS                                          7994  
+13477CHAPEU DO SOL                                               7994  
+13478CIDADE BAIXA                                                7994  
+13479CORONEL APARICIO BORGES                                     7994  
+13480CRISTAL                                                     7994  
+13481CRISTO REDENTOR                                             7994  
+39017DONA TEODORA                                                7994  
+13482ESPIRITO SANTO                                              7994  
+13483FARRAPOS                                                    7994  
+13484FARROUPILHA                                                 7994  
+13485FLORESTA                                                    7994  
+13486GLORIA                                                      7994  
+39039GUAIBA                                                      7994  
+13487GUARUJA                                                     7994  
+13488HIGIENOPOLIS                                                7994  
+13489HIPICA                                                      7994  
+13490HUMAITA                                                     7994  
+13491INDEPENDENCIA                                               7994  
+13492IPANEMA                                                     7994  
+13493JARDIM BOTANICO                                             7994  
+13494JARDIM CARVALHO                                             7994  
+13495JARDIM DO SALSO                                             7994  
+39012JARDIM EUROPA                                               7994  
+13496JARDIM FLORESTA                                             7994  
+13497JARDIM ITU SABARA                                           7994  
+13498JARDIM LINDOIA                                              7994  
+39015JARDIM PLANALTO                                             7994  
+13499JARDIM SAO PEDRO                                            7994  
+39007JARDIM YPU                                                  7994  
+13500LAGEADO                                                     7994  
+13501LAMI                                                        7994  
+13502LOMBA DO PINHEIRO                                           7994  
+13503MARCILIO DIAS                                               7994  
+30706MARIO QUINTANA                                              7994  
+13504MEDIANEIRA                                                  7994  
+13505MENINO DEUS                                                 7994  
+13506MOINHOS DE VENTO                                            7994  
+13507MONT SERRAT                                                 7994  
+13508NAVEGANTES                                                  7994  
+13509NONOAI                                                      7994  
+13510NOSSA SENHORA DAS GRACAS                                    7994  
+13511PARTENON                                                    7994  
+13512PASSO D'AREIA                                               7994  
+13513PASSO DAS PEDRAS                                            7994  
+13514PEDRA REDONDA                                               7994  
+13515PETROPOLIS                                                  7994  
+13516PONTA GROSSA                                                7994  
+13517PRAIA DE BELAS                                              7994  
+13518PROTASIO ALVES                                              7994  
+13519RESTINGA                                                    7994  
+13520RIO BRANCO                                                  7994  
+13521RUBEM BERTA                                                 7994  
+13522SANTA CECILIA                                               7994  
+13523SANTA MARIA GORETTI                                         7994  
+13525SANTANA                                                     7994  
+13524SANTA TEREZA                                                7994  
+13526SANTO ANTONIO                                               7994  
+13527SAO GERALDO                                                 7994  
+13528SAO JOAO                                                    7994  
+13529SAO JOSE                                                    7994  
+13530SAO SEBASTIAO                                               7994  
+13531SARANDI                                                     7994  
+13532SERRARIA                                                    7994  
+13533TERESOPOLIS                                                 7994  
+13534TRES FIGUEIRAS                                              7994  
+13535TRISTEZA                                                    7994  
+13536VILA ASSUNCAO                                               7994  
+13537VILA CONCEICAO                                              7994  
+13538VILA INTERCAP                                               7994  
+13539VILA IPIRANGA                                               7994  
+13540VILA JARDIM                                                 7994  
+13541VILA JOAO PESSOA                                            7994  
+13542VILA NOVA                                                   7994  

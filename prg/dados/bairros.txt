@@ -1,0 +1,126 @@
+13460ABERTA DOS MORROS                                           7994  
+13461AGRONOMIA                                                   7994  
+39026ALTO PETROPOLIS                                             7994  
+13030AMERICANA                                                   7408  
+13462ANCHIETA                                                    7994  
+13031APARECIDA                                                   7408  
+13463ARQUIPELAGO                                                 7994  
+13464AUXILIADORA                                                 7994  
+13465AZENHA                                                      7994  
+13466BELA VISTA                                                  7994  
+13032BELA VISTA                                                  7408  
+13467BELEM NOVO                                                  7994  
+13468BELEM VELHO                                                 7994  
+13469BOA VISTA                                                   7994  
+13470BOM FIM                                                     7994  
+13471BOM JESUS                                                   7994  
+13472CAMAQUA                                                     7994  
+13473CASCATA                                                     7994  
+13474CAVALHADA                                                   7994  
+13475CENTRO                                                      7994  
+13127CENTRO                                                      7533  
+39046CENTRO                                                      7441  
+13476CHACARA DAS PEDRAS                                          7994  
+13477CHAPEU DO SOL                                               7994  
+13478CIDADE BAIXA                                                7994  
+34335CINCO COLONIAS                                              7533  
+13479CORONEL APARICIO BORGES                                     7994  
+13480CRISTAL                                                     7994  
+13481CRISTO REDENTOR                                             7994  
+39017DONA TEODORA                                                7994  
+13482ESPIRITO SANTO                                              7994  
+13128ESTANCIA VELHA                                              7533  
+13483FARRAPOS                                                    7994  
+13484FARROUPILHA                                                 7994  
+13129FATIMA                                                      7533  
+13485FLORESTA                                                    7994  
+13033FORMOZA                                                     7408  
+13486GLORIA                                                      7994  
+39039GUAIBA                                                      7994  
+39004GUAJUVIRAS                                                  7533  
+13487GUARUJA                                                     7994  
+13130HARMONIA                                                    7533  
+13488HIGIENOPOLIS                                                7994  
+13489HIPICA                                                      7994  
+13490HUMAITA                                                     7994  
+39009IGARA                                                       7533  
+13491INDEPENDENCIA                                               7994  
+13492IPANEMA                                                     7994  
+13034JARDIM ALGARVE                                              7408  
+13493JARDIM BOTANICO                                             7994  
+13494JARDIM CARVALHO                                             7994  
+13495JARDIM DO SALSO                                             7994  
+38013JARDIM ESPLANADA                                            7408  
+39012JARDIM EUROPA                                               7994  
+13496JARDIM FLORESTA                                             7994  
+13497JARDIM ITU SABARA                                           7994  
+13498JARDIM LINDOIA                                              7994  
+39015JARDIM PLANALTO                                             7994  
+13499JARDIM SAO PEDRO                                            7994  
+39007JARDIM YPU                                                  7994  
+13500LAGEADO                                                     7994  
+13501LAMI                                                        7994  
+13502LOMBA DO PINHEIRO                                           7994  
+13503MARCILIO DIAS                                               7994  
+13131MARECHAL RONDON                                             7533  
+13035MARIA REGINA                                                7408  
+13036MARINGA                                                     7408  
+30706MARIO QUINTANA                                              7994  
+13132MATIAS VELHO                                                7533  
+13133MATO GRANDE                                                 7533  
+13504MEDIANEIRA                                                  7994  
+13505MENINO DEUS                                                 7994  
+13506MOINHOS DE VENTO                                            7994  
+13507MONT SERRAT                                                 7994  
+13508NAVEGANTES                                                  7994  
+13134NITEROI                                                     7533  
+13509NONOAI                                                      7994  
+13510NOSSA SENHORA DAS GRACAS                                    7994  
+13135NOSSA SENHORA DAS GRACAS                                    7533  
+36268OLARIA                                                      7533  
+13511PARTENON                                                    7994  
+13512PASSO D'AREIA                                               7994  
+13513PASSO DAS PEDRAS                                            7994  
+13037PASSO DO FEIJO                                              7408  
+13514PEDRA REDONDA                                               7994  
+13515PETROPOLIS                                                  7994  
+13038PIRATINI                                                    7408  
+13516PONTA GROSSA                                                7994  
+39038PORTO VERDE                                                 7408  
+13517PRAIA DE BELAS                                              7994  
+13518PROTASIO ALVES                                              7994  
+13519RESTINGA                                                    7994  
+13520RIO BRANCO                                                  7994  
+13136RIO BRANCO                                                  7533  
+13521RUBEM BERTA                                                 7994  
+13522SANTA CECILIA                                               7994  
+13523SANTA MARIA GORETTI                                         7994  
+13525SANTANA                                                     7994  
+13524SANTA TEREZA                                                7994  
+13526SANTO ANTONIO                                               7994  
+13527SAO GERALDO                                                 7994  
+13528SAO JOAO                                                    7994  
+13529SAO JOSE                                                    7994  
+13137SAO JOSE                                                    7533  
+13138SAO LUIS                                                    7533  
+13530SAO SEBASTIAO                                               7994  
+13531SARANDI                                                     7994  
+13532SERRARIA                                                    7994  
+13039STELLA MARIS                                                7408  
+13040SUMARE                                                      7408  
+13533TERESOPOLIS                                                 7994  
+13041TIJUCA                                                      7408  
+39018TRES FIGUEIRAS                                              7408  
+13534TRES FIGUEIRAS                                              7994  
+13535TRISTEZA                                                    7994  
+39002UMBU                                                        7408  
+13536VILA ASSUNCAO                                               7994  
+13537VILA CONCEICAO                                              7994  
+13139VILA IGARA                                                  7533  
+13538VILA INTERCAP                                               7994  
+13539VILA IPIRANGA                                               7994  
+13540VILA JARDIM                                                 7994  
+13541VILA JOAO PESSOA                                            7994  
+13542VILA NOVA                                                   7994  
+13140VILA ROSA                                                   7533  
+13042VILA TUPA                                                   7408  

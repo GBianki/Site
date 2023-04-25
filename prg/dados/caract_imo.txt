@@ -1,0 +1,133 @@
+91      0               110 BANHEIRO DE EMPREGADA    N          INT
+91      0     02        61  BANHEIRO                 N          INT
+92      0     02        61  BANHEIRO                 N          INT
+92      3.00            25  DORMITORIO               S          INT
+100     0     02        61  BANHEIRO                 N          INT
+105     0     1         61  BANHEIRO                 N          INT
+157     0     01        61  BANHEIRO                 N          INT
+157     0               125 FUNDOS                   N          INT
+157     0               117 COMERCIAL                N          INT
+157     0               80  PISO PARQUET             N          INT
+157     0               147 3º ANDAR                 N          INT
+160     0     01        61  BANHEIRO                 N          INT
+176     0     01        61  BANHEIRO                 N          INT
+187     0               184 BANHEIRO BOX ACRILICO    N          INT
+187     0               56  SALA DE JANTAR           N          INT
+187     0               60  COZINHA                  N          INT
+187     0               141 BANHEIRO AUXILIAR        N          INT
+187     0               127 2º ANDAR                 N          INT
+187     3.00            25  DORMITORIO               S          INT
+187     0               93  SALA DE ESTAR            N          INT
+187     0               84  AREA DE SERV             N          INT
+187     0               68  HALL                     N          INT
+211     0     01        61  BANHEIRO                 N          INT
+223     0     1         61  BANHEIRO                 N          INT
+234     0     02        61  BANHEIRO                 N          INT
+269     1.00            122 SALA                     S          INT
+269     0               134 TERREO                   N          INT
+269     0     1         61  BANHEIRO                 N          INT
+269     0               60  COZINHA                  N          INT
+269     0               159 PORTA DE FERRO           N          INT
+269     0               69  PORTEIRO ELETRONICO      N          INT
+269     2.00            25  DORMITORIO               S          INT
+269     0               80  PISO PARQUET             N          INT
+312     0     1         61  BANHEIRO                 N          INT
+342     0     02        61  BANHEIRO                 N          INT
+354     0     01        61  BANHEIRO                 N          INT
+356     0               126 FRENTE                   N          INT
+356     0               171 ESPERA PARA TELEFONE     N          INT
+356     0     1         61  BANHEIRO                 N          INT
+356     0               72  AREA C/TANQUE            N          INT
+356     0               60  COZINHA                  N          INT
+356     0               80  PISO PARQUET             N          INT
+356     0               135 4º ANDAR                 N          INT
+356     0               129 RESIDENCIAL              N          INT
+356     1.00            122 SALA                     S          INT
+360     0     01        61  BANHEIRO                 N          INT
+372     0     1         61  BANHEIRO                 N          INT
+372     0               178 ENSOLARADO               N          INT
+372     0               171 ESPERA PARA TELEFONE     N          INT
+372     0               125 FUNDOS                   N          INT
+372     0               117 COMERCIAL                N          INT
+372     0               80  PISO PARQUET             N          INT
+407     0     01        61  BANHEIRO                 N          INT
+407     0               141 BANHEIRO AUXILIAR        N          INT
+438     0     01        61  BANHEIRO                 N          INT
+452     0     1         61  BANHEIRO                 N          INT
+456     0               80  PISO PARQUET             N          INT
+456     0               171 ESPERA PARA TELEFONE     N          INT
+456     0               117 COMERCIAL                N          INT
+456     0               125 FUNDOS                   N          INT
+456     0     1         61  BANHEIRO                 N          INT
+457     0     1         61  BANHEIRO                 N          INT
+458     0               126 FRENTE                   N          INT
+458     0               127 2º ANDAR                 N          INT
+458     0               80  PISO PARQUET             N          INT
+458     0               31  OTIMA ILUMINAÇÃO         N          INT
+458     0     1         61  BANHEIRO                 N          INT
+474     0     01        61  BANHEIRO                 N          INT
+493     0               31  OTIMA ILUMINAÇÃO         N          INT
+493     0     2         61  BANHEIRO                 N          INT
+493     0               90  PATIO                    N          INT
+493     0               117 COMERCIAL                N          INT
+493     0               119 PISO FRIO                N          INT
+493     0               126 FRENTE                   N          INT
+493     0               134 TERREO                   N          INT
+493     0               60  COZINHA                  N          INT
+493     0               178 ENSOLARADO               N          INT
+790     0     2         61  BANHEIRO                 N          INT
+793     0     02        61  BANHEIRO                 N          INT
+798     0     1         61  BANHEIRO                 N          INT
+812     0     1         61  BANHEIRO                 N          INT
+951     0     2         61  BANHEIRO                 N          INT
+972     0     00        61  BANHEIRO                 N          INT
+1031    0     1         61  BANHEIRO                 N          INT
+1041    0     02        61  BANHEIRO                 N          INT
+1117    0     02        61  BANHEIRO                 N          INT
+1128    0     01        61  BANHEIRO                 N          INT
+1137    0     1         61  BANHEIRO                 N          INT
+1158    0     01        61  BANHEIRO                 N          INT
+1173    0     2         61  BANHEIRO                 N          INT
+1179    0     01        61  BANHEIRO                 N          INT
+1210    0     1         61  BANHEIRO                 N          INT
+1222    0     .         61  BANHEIRO                 N          INT
+1224    0     01        61  BANHEIRO                 N          INT
+1270    0     02        61  BANHEIRO                 N          INT
+1287    0     02        61  BANHEIRO                 N          INT
+1291    0     02        61  BANHEIRO                 N          INT
+1293    0     01        61  BANHEIRO                 N          INT
+1315    0     02        61  BANHEIRO                 N          INT
+1326    0     02        61  BANHEIRO                 N          INT
+1329    0     01        61  BANHEIRO                 N          INT
+1348    0     04        61  BANHEIRO                 N          INT
+1369    0     02        61  BANHEIRO                 N          INT
+1393    0     02        61  BANHEIRO                 N          INT
+1403    0     01        61  BANHEIRO                 N          INT
+1409    0               141 BANHEIRO AUXILIAR        N          INT
+1411    0     2         61  BANHEIRO                 N          INT
+1417    0     1         61  BANHEIRO                 N          INT
+1431    0     1         61  BANHEIRO                 N          INT
+1432    0     1         61  BANHEIRO                 N          INT
+1442    0     1         61  BANHEIRO                 N          INT
+1450    0     02        61  BANHEIRO                 N          INT
+1463    0     1         61  BANHEIRO                 N          INT
+1468    0     1         61  BANHEIRO                 N          INT
+1473    0     01        61  BANHEIRO                 N          INT
+1475    0     1         61  BANHEIRO                 N          INT
+1475    0               127 2º ANDAR                 N          INT
+1475    0               126 FRENTE                   N          INT
+1477    0     1         61  BANHEIRO                 N          INT
+1478    0     1         61  BANHEIRO                 N          INT
+1479    0     1         61  BANHEIRO                 N          INT
+1481    0     01        61  BANHEIRO                 N          INT
+1484    0     2         61  BANHEIRO                 N          INT
+1486    0     3         61  BANHEIRO                 N          INT
+1487    0     2         61  BANHEIRO                 N          INT
+1492    0     01        61  BANHEIRO                 N          INT
+1495    0     .         61  BANHEIRO                 N          INT
+1496    0     02        61  BANHEIRO                 N          INT
+1497    0     01        61  BANHEIRO                 N          INT
+1499    0     .         61  BANHEIRO                 N          INT
+1500    0     .         61  BANHEIRO                 N          INT
+1501    0     01        61  BANHEIRO                 N          INT
+1502    0     01        61  BANHEIRO                 N          INT

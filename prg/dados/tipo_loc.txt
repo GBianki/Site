@@ -1,0 +1,11 @@
+1   Apartamento                   RSS
+14  Box Comerc.                   CNS
+12  Casa Comer.                   CNS
+4   Casa Resid.                   RSS
+9   Conjunto                      CNS
+15  Depósito                      CNS
+10  Loja                          CNS
+31  Loja em Condomínio            CNS
+17  Prédio                        CNS
+8   Sala                          CNS
+18  Terreno                       CNN

@@ -1,0 +1,11 @@
+CLAUDIA   20  CLAUDIA ELISA DOS SANTOS           claudia@imobiliariasaogeraldo.com.br                                  
+DENI      3   DENIR DOS SANTOS MEDEIROS          deni@imobiliariasaogeraldo.com.br                                204  
+ELISABET  10  ELISABET LUCIA BOELTER ARROJO      elisabet@imobiliariasaogeraldo.com.br                            216  
+IARA      14  IARA SILVA                                                                                               
+LILIAN    8   LILIAN QUEIROZ DOS PASSOS          lilian@imobiliariasaogeraldo.com.br                              218  
+MARGARETE 2   MARGARETE SILVA DE SOUZA           margarete@imobiliariasaogeraldo.com.br                           214  
+PAULA     5   ANA PAULA CABRAL                   PAULA@IMOBILIARIASAOGERALDO.COM.BR                               203  
+SHELLEY   15  SHELLEY MAZZARDO RAMOS             shelley@imobiliariasaogeraldo.com.br                                  
+SU        1   SUPERVISOR DO SISTEMA                                                                               1    
+VITORIA   17  VITORIA PAULO DE SOUZA                                                                                   
+ZORAIA    4   ZORAIA LONGARES NUNES                                                                               202  

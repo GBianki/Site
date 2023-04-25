@@ -1,0 +1,15 @@
+1;SU;SUPERVISOR DO SISTEMA;
+2;MA;MARGARETE SILVA DE SOUZA;margarete@imobiliariasaogeraldo.com.br
+3;DE;DENIR DOS SANTOS MEDEIROS;deni@imobiliariasaogeraldo.com.br
+4;ZO;ZORAIA LONGARES NUNES;
+5;PA;ANA PAULA CABRAL;PAULA@IMOBILIARIASAOGERALDO.COM.BR
+6;JO;JOSEANA LINO DE ALMEIDA;joseana@imobiliariasaogeraldo.com.br
+7;CR;CRISTIANE MARIA RIECK;
+8;LI;LILIAN QUEIROZ DOS PASSOS;lilian@imobiliariasaogeraldo.com.br
+9;LO;MARIA DE LOURDES GIROTTO FERREIRA;
+10;EL;ELISABET LUCIA BOELTER ARROJO;elisabet@imobiliariasaogeraldo.com.br
+11;JE;JÉSSICA SCHNEIDER LOPES;jessica@imobiliariasaogeraldo.com.br
+14;IA;IARA SILVA;
+15;SH;SHELLEY MAZZARDO RAMOS;shelley@imobiliariasaogeraldo.com.br
+17;VI;VITORIA PAULO DE SOUZA;
+20;CL;CLAUDIA ELISA DOS SANTOS;claudia@imobiliariasaogeraldo.com.br
