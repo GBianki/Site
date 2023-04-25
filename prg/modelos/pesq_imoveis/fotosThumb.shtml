@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Imobili&aacute;ria S&atilde;o Geraldo</title>
+<title>InetSoft - Sistema Imobiliar</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link rel="shortcut icon" href="favicon.png" type="favicon.png" /> 
 <link href="/prg/modelos/pesq_imoveis/estilos.css" rel="stylesheet" type="text/css">
@@ -113,7 +113,7 @@ var EnderecoDoImovel = '{TIPOLOGR} {LOGRADOURO}, {NUMERO}';
       </tr>
       <tr>
         <td height="50" bgcolor="#FFC1A4"><b>C&oacute;d.: {COD_IMOV} | &Aacute;rea: {AREA} | {VAL_COND_IPTU}<br>
-		Endereço: {END} | Bairro: {BAIRRO}</b></td>
+		EndereÃ§o: {END} | Bairro: {BAIRRO}</b></td>
       </tr>
       <tr>
         <td height="10"></td>
