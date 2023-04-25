@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>Imobili&aacute;ria S&atilde;o Geraldo, a sua casa</title>
+<meta http-equiv="Content-Type" content="text/html;">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0914154154_0) return;
+          window.mm_menu_0914154154_0 = new Menu("root",107,16,"Arial, Helvetica, sans-serif",10,"#FFFFFF","#FFFFFF","#FFB17D","#FD7E2B","left","middle",3,0,1500,-5,7,true,true,true,0,true,true);
+  mm_menu_0914154154_0.addMenuItem("S&atilde;o&nbsp;Geraldo","location='../conteudo/saogeraldo.php'");
+  mm_menu_0914154154_0.addMenuItem("Onde&nbsp;estamos","location='../conteudo/ondeestamos.php'");
+   mm_menu_0914154154_0.hideOnMouseOut=true;
+   mm_menu_0914154154_0.bgColor='#FFB17D';
+   mm_menu_0914154154_0.menuBorder=1;
+   mm_menu_0914154154_0.menuLiteBgColor='#FFC69B';
+   mm_menu_0914154154_0.menuBorderBgColor='#FFFFFF';
+
+                    window.mm_menu_0914170423_0 = new Menu("root",142,16,"Arial, Helvetica, sans-serif",10,"#FFFFFF","#FFFFFF","#FFB17D","#FD7E2B","left","middle",3,0,1500,-5,7,true,true,true,0,true,true);
+  mm_menu_0914170423_0.addMenuItem("Busca&nbsp;de&nbsp;im&oacute;veis","location='pesqCid.php?lv=L'");
+  mm_menu_0914170423_0.addMenuItem("Documenta&ccedil;&atilde;o","location='../conteudo/documentacao_aluguel.php'");
+  mm_menu_0914170423_0.addMenuItem("2&ordf; Via Doc.","location='../conteudo/clienteonline.php'");
+   mm_menu_0914170423_0.hideOnMouseOut=true;
+   mm_menu_0914170423_0.bgColor='#FFB17D';
+   mm_menu_0914170423_0.menuBorder=1;
+   mm_menu_0914170423_0.menuLiteBgColor='#FFC69B';
+   mm_menu_0914170423_0.menuBorderBgColor='#FFFFFF';
+  window.mm_menu_0915111610_0 = new Menu("root",142,16,"Arial, Helvetica, sans-serif",10,"#FFFFFF","#FFFFFF","#FFB17D","#FD7E2B","left","middle",3,0,1500,-5,7,true,true,true,0,true,true);
+  mm_menu_0915111610_0.addMenuItem("Busca&nbsp;de&nbsp;im&oacute;veis","location='pesqCid.php?lv=V'");
+  mm_menu_0915111610_0.addMenuItem("Documenta&ccedil;&atilde;o","location='../conteudo/documentacao_venda.php'");
+   mm_menu_0915111610_0.hideOnMouseOut=true;
+   mm_menu_0915111610_0.bgColor='#FFB17D';
+   mm_menu_0915111610_0.menuBorder=1;
+   mm_menu_0915111610_0.menuLiteBgColor='#FFC69B';
+   mm_menu_0915111610_0.menuBorderBgColor='#FFFFFF';
+window.mm_menu_0915112128_0 = new Menu("root",163,16,"Arial, Helvetica, sans-serif",10,"#FFFFFF","#FFFFFF","#FFB17D","#FD7E2B","left","middle",3,0,1500,-5,7,true,true,true,0,true,true);
+  mm_menu_0915112128_0.addMenuItem("Telefones &uacute;teis","location='../conteudo/telefonesuteis.php'");
+  mm_menu_0915112128_0.addMenuItem("Registros&nbsp;e&nbsp;tabelionatos","location='../conteudo/registros.php'");
+  mm_menu_0915112128_0.addMenuItem("Links&nbsp;&uacute;teis","location='../conteudo/links.php'");
+   mm_menu_0915112128_0.hideOnMouseOut=true;
+   mm_menu_0915112128_0.bgColor='#FFB17D';
+   mm_menu_0915112128_0.menuBorder=1;
+   mm_menu_0915112128_0.menuLiteBgColor='#FFC69B';
+   mm_menu_0915112128_0.menuBorderBgColor='#FFFFFF';
+
+mm_menu_0915112128_0.writeMenus();
+} // mmLoadMenus()
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<link href="../estilos.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="mm_menu.js"></script>
+</head>
+
+<script language="Javascript">
+<!--
+	function VerQuartos()
+	{
+	sel = document.getElementById("seltipo");
+	opt = sel.options[sel.selectedIndex].text;
+	if (opt.indexOf('->') > 0) disp = '';
+	else disp = 'none';
+	document.getElementById("tem_quartos").style.display = disp;
+	}
+//-->
+</script>
+
+<body bgcolor="#ff7e28" leftmargin="0" bottommargin="0" rightmargin="0" topmargin="0" onLoad="javascript:VerQuartos()">
+<script language="JavaScript1.2">mmLoadMenus();</script>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table border="0" cellpadding="0" cellspacing="0" width="779">
+        <tr>
+          <td><img src="../internas/spacer.gif" width="38" height="1" border="0" alt=""></td>
+          <td><img src="../internas/spacer.gif" width="29" height="1" border="0" alt=""></td>
+          <td><img src="../internas/spacer.gif" width="435" height="1" border="0" alt=""></td>
+          <td><img src="../internas/spacer.gif" width="26" height="1" border="0" alt=""></td>
+          <td><img src="../internas/spacer.gif" width="218" height="1" border="0" alt=""></td>
+          <td><img src="../internas/spacer.gif" width="33" height="1" border="0" alt=""></td>
+          <td><img src="../internas/spacer.gif" width="1" height="1" border="0" alt=""></td>
+        </tr>
+        <tr>
+          <td colspan="6"><img src="../internas/cabecalho.jpg" alt="" name="cabecalho" width="779" height="97" border="0" usemap="#cabecalhoMap"></td>
+          <td><img src="../internas/spacer.gif" width="1" height="97" border="0" alt=""></td>
+        </tr>
+        <tr>
+          <td colspan="6"><img src="../internas/barra_menu.jpg" alt="" name="barra_menu" width="779" height="29" border="0" usemap="#barra_menuMap"></td>
+          <td><img src="../internas/spacer.gif" width="1" height="29" border="0" alt=""></td>
+        </tr>
+        <tr>
+          <td rowspan="4" background="../internas/borda_esquerda.jpg" width="38" height="374" border="0" alt=""></td>
+          <td colspan="3" background="../internas/barra_chamada.jpg">&nbsp;</td>
+          <td rowspan="4" background="../internas/tabela_direita02.jpg" width="218" height="374" border="0" alt="" align="center" valign="top"><table width="200" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" valign="top"><table width="200" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><img src="../internas/busca_imoveis.jpg" width="218" height="95" border="0" usemap="#Map2"></td>
+                    </tr>
+                    <tr>
+                      <td><img src="../internas/tit_informativo.jpg" width="218" height="32"></td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="top"><table width="200" height="85"border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="left" valign="top"><table width="200" border="0" cellspacing="2">
+  <tr>
+    <td><br><br><div align="center">N&atilde;o encontrou o im&oacute;vel que procura? <br>
+				<a href="../conteudo/contato.php">Clique aqui!</a></div></td>
+  </tr>
+</table></td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                    <tr>
+                      <td><img src="../internas/tit_indicadores.jpg" width="218" height="36"></td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="top"><table width="200" cellpadding="0" cellspacing="1" >
+                                <tr>
+                                  <td width="100%"><a href="#" onClick="MM_openBrWindow('http://www.receita.fazenda.gov.br','abre001','toolbar=yes,location=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=790,height=410')">TABELA DO IR </a></td>
+                                </tr>
+                                <tr onClick="MM_openBrWindow('http://www.secovi.com.br/pesquisa/dados_economicos/inddiarios.pdf','','toolbar=yes,location=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=790,height=410')">
+                                  <td align="right"><div align="left"><a href="#">MAIS INDICADORES </a></div></td>
+                                </tr>
+                            </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+          </table></td>
+          <td rowspan="4" background="../internas/borda_direita.jpg" width="33" height="374" border="0" alt=""></td>
+          <td><img src="../internas/spacer.gif" width="1" height="49" border="0" alt=""></td>
+        </tr>
+        <tr>
+          <td colspan="3" background="../internas/topo_conteudo.jpg" width="490" height="34" border="0" alt=""></td>
+          <td><img src="../internas/spacer.gif" width="1" height="34" border="0" alt=""></td>
+        </tr>
+        <tr>
+          <td valign="top" background="../internas/esquerda_conteudo.jpg" width="29" height="249" border="0" alt=""></td>
+          <td bgcolor="#FFFFFF" align="center" valign="top"><table width="350" border="0" cellspacing="0" cellpadding="0">
+     <tr>
+       <td align="center" valign="middle"><br>
+         <BR>
+           <table width="360" border="1" bordercolor="#555555" cellspacing="0" cellpadding="0">
+             <tr>
+               <td valign="top" align="center"><table width="300" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="imgs/tit_interna_buscaimoveis.gif" width="110" height="18"></td>
+          </tr>
+        </table>
+               <BR>
+<table width="300" height="0" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color:FFFFFF;">
+  <tbody>
+    <tr valign="middle" align="center">
+      <td width="300" valign="top">
+      <form name="" action="../prg/pesqImovRes.php" method="post">
+        <input type="hidden" name="lv" value="L">
+        <input type="hidden" name="selcidade" value="{CIDADE}">
+        <table width="100%" border="0" cellspacing="1" cellpadding="3">
+          <tbody>
+            <tr>
+              <td width="26%">
+              <div align="right"><b>
+			  Tipo de Im&oacute;vel:</b></div>
+              </td>
+              <td width="74%">
+              <table width="100%">
+                <tbody>
+                  <tr>
+                    <td>
+                    <select name="seltipo" id="seltipo" onChange="javascript:VerQuartos()">
+<!-- BEGIN DYNAMIC BLOCK: TIPOS -->
+                    <option value="{TVALOR}" {SELEC}>{TOPCAO}</option>
+<!-- END DYNAMIC BLOCK: TIPOS -->
+                    </select>
+                    </td>
+                    <td width="50%">
+                    <div class="style4" id="tem_quartos">{QUARTOS}</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              </td>
+            </tr>
+            <tr style="display:none">
+              <td width="26%" valign="top">
+              <div align="right">
+			    <strong>Caracter&iacute;sticas</strong>:</div>
+              </td>
+              <td width="74%">
+              <p>
+<!-- BEGIN DYNAMIC BLOCK: CARAC -->
+				<input type="checkbox" name="cbCarac[]" value="{COD}">
+				{DESCR}<br>
+<!-- END DYNAMIC BLOCK: CARAC --> 
+			  </p>
+              </td>
+            </tr>
+            <tr>
+              <td width="26%">
+              <div align="right"><b>
+			  <input type="hidden" name="reg_bairro" value="B" checked="checked"> Bairro:
+			  </b>
+			    <small>(use a tecla control+click do mouse para marcar v&aacute;rios bairros para a pesquisa)</small>
+			    </div>
+              </td>
+              <td width="74%" valign="top">
+              <select name="selbairro[]" size="4" multiple="MULTIPLE">
+              <option selected> - QUALQUER BAIRRO - </option>
+<!-- BEGIN DYNAMIC BLOCK: BAIRROS -->
+              <option {SELEC} value="{BVALOR}">{BOPCAO}</option>
+<!-- END DYNAMIC BLOCK: BAIRROS -->
+              </select>
+              <br>
+              </td>
+            </tr>
+            <tr>
+              <td width="26%">
+              <div align="right"><b>
+			  Faixa de Pre&ccedil;o:</b></div>
+              </td>
+              <td width="74%">
+			  <b>de</b> R$ 
+			  <input maxlength="8" name="faixa1" size="5">
+,00 <b>a</b> R$
+              <input maxlength="8" name="faixa2" size="5">
+              ,00
+              </td>
+            </tr>
+            <tr>
+              <td width="26%"><br>
+              </td>
+              <td width="74%"></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td width="74%"> <div align="left">
+		            <input type="submit" value=" Pesquisar Im&oacute;veis " name="Button"> 
+                </div></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+      </td>
+    </tr>
+  </tbody>
+</table>
+&nbsp;</td>
+             </tr>
+           </table>
+           <p>
+             <input name="we" value="1" type="hidden">
+           </p>
+         </form></td>
+     </tr>
+   </table>
+              <br>
+              <BR>
+          </td>
+          <td background="../internas/direita_conteudo.jpg" width="26" height="249" border="0" alt=""></td>
+          <td><img src="../internas/spacer.gif" width="1" height="249" border="0" alt=""></td>
+        </tr>
+        <tr>
+          <td colspan="3" background="../internas/down_conteudo.jpg">&nbsp;</td>
+          <td><img src="../internas/spacer.gif" width="1" height="42" border="0" alt=""></td>
+        </tr>
+      </table>
+        <table width="779" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td background="../internas/barra_bottom02.jpg" valign="top" align="left"><table width="530" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="40">&nbsp;</td>
+                  <td width="490" align="center"><br>
+                      <img src="../internas/assinatura.gif" border="0" usemap="#Map"><br>
+                      <br></td>
+                </tr>
+            </table></td>
+          </tr>
+      </table></td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="324,0,427,25" href="#" onClick="MM_openBrWindow('http://www.agilizenet.com.br','Agilize','toolbar=yes,location=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=790,height=410')">
+</map>
+<map name="cabecalhoMap">
+  <area shape="rect" coords="46,5,142,91" href="../index.php">
+</map>
+<map name="barra_menuMap">
+  <area shape="rect" coords="59,4,113,21" href="#1" onMouseOver="MM_showMenu(window.mm_menu_0914154154_0,41,30,null,'barra_menu')" onMouseOut="MM_startTimeout();">
+  <area shape="rect" coords="122,6,176,21" href="#2" onMouseOver="MM_showMenu(window.mm_menu_0914170423_0,117,30,null,'barra_menu')" onMouseOut="MM_startTimeout();">
+  <area shape="rect" coords="187,6,234,22" href="#3" onMouseOver="MM_showMenu(window.mm_menu_0915111610_0,182,30,null,'barra_menu')" onMouseOut="MM_startTimeout();">
+  <area shape="rect" coords="244,6,294,22" href="../conteudo/seguros.php">
+  <area shape="rect" coords="306,5,396,22" href="../conteudo/clienteonline.php">
+  <area shape="rect" coords="407,5,461,22" href="#4" onMouseOver="MM_showMenu(window.mm_menu_0915112128_0,402,30,null,'barra_menu')" onMouseOut="MM_startTimeout();">
+  <area shape="rect" coords="471,5,518,21" href="../conteudo/contato.php">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="14,17,108,76" href="pesqCid.php?lv=L">
+  <area shape="rect" coords="110,16,205,76" href="pesqCid.php?lv=V">
+</map>
+</body>
+</html>

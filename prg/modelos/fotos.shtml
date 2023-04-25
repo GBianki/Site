@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>imobil&aacute;ria</title>
+  <style>A:link {
+	FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:active {
+	FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+  </style>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+<!--body bgcolor="#DCA001" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"-->
+</head>
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+<table background="" border="0"
+ cellpadding="0" cellspacing="0" height="63" width="100%">
+  <tbody>
+    <tr>
+      <td><img src="imgs/imob.gif" width="80" height="81"></td>
+    </tr>
+  </tbody>
+</table>
+<table bgcolor="#ffffff" border="0" cellspacing="0" height="336"
+ width="100%">
+  <tbody>
+    <tr>
+      <td height="359" valign="top" width="548">
+      <table border="0" width="100%">
+        <tbody>
+          <tr>
+            <td colspan="2" align="rigth"><!-- BEGIN DYNAMIC BLOCK: FOTOS -->
+            <a href="exibeFotos.php?{PARAM}"><font color="#990000"
+ face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>{NOME_FT}</b></font></a>&nbsp;&nbsp;
+<!-- END DYNAMIC BLOCK: FOTOS --> </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="rigth"> <font
+ face="Verdana, Arial, Helvetica, sans-serif" size="1"> <a
+ href="javascript:window.print()"><font color="#000000">IMPRIMIR</font></a></font>
+            </td>
+          </tr>
+          <tr>
+<!--td width="320" height="240" ><img src="@img_imov@" border="0"></td-->
+            <td valign="top">
+            <table border="0">
+              <tbody>
+                <tr>
+                  <td valign="top" width="50"><font
+ face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><small>C&oacute;digo:</small></b></font></td>
+                  <td><font face="Verdana, Arial, Helvetica, sans-serif"
+ size="1">{COD_IMOV}<br>
+                  </font></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="50"><font
+ face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><small>{ALUG_VENDA}</small></b></font></td>
+                  <td><font face="Verdana, Arial, Helvetica, sans-serif"
+ size="1">{VAL_IMOV}<br>
+                  </font></td>
+                </tr>
+                <tr>
+                  <td><font face="Verdana, Arial, Helvetica, sans-serif"
+ size="1"><b>Endere&ccedil;o:</b></font></td>
+                  <td><font face="Verdana, Arial, Helvetica, sans-serif"
+ size="1">{END}</font></td>
+                </tr>
+                <tr>
+                  <td><font face="Verdana, Arial, Helvetica, sans-serif"
+ size="1"><b>Bairro:</b></font></td>
+                  <td><font face="Verdana, Arial, Helvetica, sans-serif"
+ size="1">{BAIRRO}</font></td>
+                </tr>
+                <tr>
+                  <td><font face="Verdana, Arial, Helvetica, sans-serif"
+ size="1"><br>
+                  <b>Descri&ccedil;&atilde;o :</b></font></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><font
+ face="Verdana, Arial, Helvetica, sans-serif" size="1">{DESCR}{VAL_COND_IPTU}</font></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+            <td height="240" valign="top" width="320"><img
+ src="{IMG_IMOV}" border="1"></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <div align="center"><font color="#000000" size="3">............................................................................................</font></div>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>
+            <div align="right"><font color="#ffffff" size="1"><a
+ href="javascript:window.close()"><img
+ src="fechar.gif" border="0" height="23"
+ width="98"></a></font></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

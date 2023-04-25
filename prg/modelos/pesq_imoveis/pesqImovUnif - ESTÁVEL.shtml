@@ -1,0 +1,140 @@
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <link href="/prg/modelos/padrao.css" rel="stylesheet" type="text/css">
+  <link href="/prg/modelos/multiple_select/multiple-select.css" rel="stylesheet" type="text/css">
+  <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- #printenv -->
+  <script language="JavaScript" type="text/javascript" src="/prg/modelos/pesq_imoveis/pesqImovUnif.js"></script>
+  <script language="Javascript">
+    //<!--
+    {LISTA_DE_CIDADES_L}
+    {LISTA_DE_CIDADES_V}
+    {LISTA_DE_BAIRROS_L}
+    {LISTA_DE_BAIRROS_V}
+    {LISTA_DE_TIPOS_L}
+    {LISTA_DE_TIPOS_V}
+//-->
+</script>
+<style type="text/css">
+
+  
+        .ms-parent .ms-drop {
+            width: 250px;
+        }
+
+        .ms-choice {
+          height: 35px;
+          line-height: 35px;
+          border-radius: 0px;
+        }
+
+        .ms-choice > div {
+          line-height: 35px;
+        }
+</style>
+</head>
+
+<body onLoad="javascript:VerLV();VerCaracteristicas();VerQuartos();ConfiguraCampoBairros();">
+
+  <form name="pesquisa" action="/prg/pesqImovRes.php" method="get">
+    <table width="900" border="0">
+      <tr>
+        <td width="90px">
+          <input type="radio" name="lv" id="lvL" value="L" checked="checked" onChange="novo_verLv('L')"><font color="#FFFFFF">
+          Loca&ccedil;&atilde;o</font><br />
+          <input type="radio" name="lv" id="lvV" value="V" onChange="novo_verLv('V')"><font color="#FFFFFF">
+          Venda</font>
+        </td>
+          <td width="56" style="visibility:hidden"><font size="small">
+            <input type="radio" name="selocup" id="selocup" value="R" onChange="VerTipos(this.value)">
+            R
+            <input type="radio" name="selocup" id="selocup" value="C" onChange="VerTipos(this.value)">
+            C
+            <input type="radio" name="selocup" id="selocup" value="*" checked="checked" onChange="VerTipos(this.value)" >
+            A</font>
+          </td>
+            <td width="123">
+              <select name="selcidade" id="selcidade" onChange="novo_verBairros()" style="width:120px; height:35px;">
+              <!-- BEGIN DYNAMIC BLOCK: CIDADES -->
+              <option {selec} value="{VALOR}">{OPCAO}</option>
+              <!-- END DYNAMIC BLOCK: CIDADES -->
+            </select></td>
+            <td width="122"><select name="selbairro[]" id="selbairro" multiple="multiple" style="width:120px; height:35px;">
+              <option selected>BAIRROS</option>
+              <!-- BEGIN DYNAMIC BLOCK: BAIRROS -->
+              <option {selec} value="{BVALOR}">{BOPCAO}</option>
+              <!-- END DYNAMIC BLOCK: BAIRROS -->
+            </select>      </td>
+            <td width="122"><select name="seltipo" id="seltipo" onChange="javascript:VerQuartos()" style="width:120px; height:35px;">
+              <!-- BEGIN DYNAMIC BLOCK: TIPOS -->
+              <option value="{TVALOR}">{TOPCAO}</option>
+              <!-- END DYNAMIC BLOCK: TIPOS -->
+            </select></td>
+            <td width="123"><select name="nro_quartos" style="width:120px; height:35px;">
+              <option value=0 selected>Dormitorios</option>
+              <option value=1>1</option>
+              <option value=2>2</option>
+              <option value=3>3</option>
+              <option value=4>4 ou mais</option>
+            </select></td>
+            <td width="116"><input type="text" name="codimovel" id="codimovel" maxlength="8" size="8" style="width:110px; height:35px;" placeholder="C&oacute;digo" ></td>
+            <td width="120"><input type="submit" value=" BUSCAR " name="btnPesq" style="width:120px; height:35px;"></td>
+          </tr>
+        </table>
+
+      </form>
+<script src="/prg/modelos/multiple_select/multiple-select.js"></script>
+<script>
+
+setTimeout(function() {
+
+  VerLV();VerCaracteristicas();VerQuartos();ConfiguraCampoBairros();
+
+}, 2);
+
+function novo_verBairros() {
+  VerBairros();
+  $('#selbairro').multipleSelect('refresh');
+}
+
+function novo_verLv(lv) {
+
+  VerLV(lv);
+  $('#selbairro').multipleSelect('refresh');
+}
+
+function ConfiguraCampoBairros() {
+      $("#selbairro").multipleSelect({
+          filter: true,
+          selectAll: false,
+          placeholder: 'Bairros',
+          allSelected: 'Todos',
+          countSelected: '# de %',
+          minimumCountSelected: 1,
+          onClick: function(view) {
+            var selection = $("#selbairro").multipleSelect("getSelects");
+            if(selection.length > 1) {
+              if(view.value == '- QUALQUER BAIRRO -' && view.checked) {
+                  
+                $("#selbairro").multipleSelect("setSelects", ['- QUALQUER BAIRRO -']);
+
+              } else {
+
+                if(selection.includes('- QUALQUER BAIRRO -')) {
+
+                  selection.splice(selection.indexOf('- QUALQUER BAIRRO -'), 1);
+                  $('#selbairro').multipleSelect('setSelects', selection);                
+                }
+              }
+            }
+          }
+      });
+}
+</script>
+</body>
+</html>

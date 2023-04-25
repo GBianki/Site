@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>Imobiliar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="modelos/padrao.css" rel="stylesheet" type="text/css">
+<style>
+A:link {
+	FONT-STYLE: normal; TEXT-DECORATION: none; outline: none
+}
+A:active {
+	FONT-STYLE: normal; TEXT-DECORATION: none; outline: none
+}
+A:visited {
+	FONT-STYLE: normal; TEXT-DECORATION: none; outline: none
+}
+A:hover {
+	COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+.info_nome {
+	COLOR: #000000; FONT-STYLE: normal; FONT-SIZE: 12px; FONT-WEIGHT: bold; VERTICAL-ALIGN: top; WIDTH: 50px
+}
+.info_valor {
+	COLOR: #000000; FONT-STYLE: normal; FONT-SIZE: 12px;
+}
+.situacao_imovel {
+	COLOR: red; FONT-STYLE: normal; FONT-SIZE: 12px;
+}
+.nome_foto {
+	COLOR: red; FONT-STYLE: normal; FONT-SIZE: 14px;
+}
+</style>
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key={GOOGLEMAPS_KEY}" type="text/javascript"></script>
+<script src="modelos/pesq_imoveis/fotos.inc.js" type="text/javascript"></script>
+<script language="Javascript"  type="text/JavaScript">
+<!--
+var ExibirMapa = ("{GOOGLEMAPS_KEY}" != "");
+var EnderecoParaMapa = '{NUMERO} {TIPOLOGR} {LOGRADOURO}, {NOMECIDADE}, {UF}, {CEP}';
+var EnderecoDoImovel = '{TIPOLOGR} {LOGRADOURO}, {NUMERO}';
+var Fotos = [''];
+//-->
+</script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" onLoad="Inicializar('{TIPO_COMERC}')" onUnload="GMapsEnd()">
+
+<!-- Menu -->
+<div align="center" id="superior-bg">
+	<div>
+	   <img src="../../../img/sup.jpg" width="1000" height="114" border="0" usemap="#menu_sup" />
+<map name="menu_sup">
+  <area shape="rect" coords="53,5,168,110" href="index.html">
+  <area shape="rect" coords="494,81,577,106" href="contato.html">
+  <area shape="rect" coords="395,82,478,107" href="vendas.html">
+  <area shape="rect" coords="291,82,374,107" href="alugueis.html"><area shape="rect" coords="189,82,272,107" href="empresa.html">
+</map>
+  </div>
+  <div>
+  <div style="height:8px;"></div>
+<form name="form1" method="post" action="">
+<table width="900" height="60" border="0">
+  <tr>
+    <td width="120">
+      <label>
+        <select name="select" style="width:110px; height:35px;">
+          <option>Alugar</option>
+          <option>Comprar</option>
+        </select>
+        </label>
+    </td>
+    <td width="115"><select name="select2" style="width:110px; height:35px;">
+      <option>Tipos de im&oacute;veis</option>
+      <option>Apartamento padr&atilde;o</option>
+            </select></td>
+    <td width="115"><select name="select3" style="width:110px; height:35px;">
+      <option>Dormit&oacute;rios</option>
+      <option>1d</option>
+      <option>2d</option>
+      <option>3d</option>
+                </select></td>
+    <td width="115"><select name="select4" style="width:110px; height:35px;">
+      <option>RS - Porto Alegre</option>
+      <option>RS - Canoas</option>
+        </select></td>
+    <td width="115"><select name="select5" style="width:110px; height:35px;">
+      <option>Bairros</option>
+      <option>S&atilde;o Geraldo</option>
+      <option>Santo Ant&ocirc;nio</option>
+      <option>Santana</option>
+        </select></td>
+    <td width="134">
+      <input type="text" name="textfield" style="width:110px; height:35px;" placeholder="Codigo">
+    </td>
+    <td width="156"><img src="img/bt_buscar.png" width="143" height="57" border="0" />	</td>
+  </tr>
+</table>
+    </form>
+	
+    </div>
+</div>
+
+<table bgcolor="#ffffff" border="0" cellspacing="0" height="336" width="650">
+  <tbody>
+	<tr>
+	  <td height="359" valign="top" width="548">
+	  <table border="0" width="100%">
+		<tbody>
+		  <tr>
+			<td colspan="2" class="nome_foto" align="rigth">
+			<!-- BEGIN DYNAMIC BLOCK: FOTOS -->
+				<a href="exibeFotos.php?{PARAM}" title="Exibe {NOME_FT}"><span class="nome_foto">{NOME_FT}</span></a>&nbsp;&nbsp;
+			<!-- END DYNAMIC BLOCK: FOTOS --> 
+				<a id="mapa" style="display: none" href="javascript:void()" title="Exibe Mapa" onClick="return ExibeFoto('mapa')">
+					<span class="nome_foto">Mapa</span></a>			</td>
+		  </tr>
+		  <tr>
+			<td valign="top">
+			<table border="0">
+			  <tbody>
+				<tr>
+				  <td class="info_nome">C&oacute;digo:</td>
+				  <td class="info_valor">{COD_IMOV}</td>
+				</tr>
+				<tr>
+				  <td class="info_nome">
+					<span id="val_venda" style="display:none">Valor:</span>
+					<span id="val_aluguel" style="display:none">Aluguel:</span>				  </td>
+				  <td class="info_valor">{VAL_IMOV}</td>
+				</tr>
+				<tr {EXIBE_ENDER}>
+				  <td  class="info_nome">Endere&ccedil;o:</td>
+				  <td class="info_valor">{END}</td>
+				</tr>
+				<tr>
+				  <td  class="info_nome">Bairro:</td>
+				  <td class="info_valor">{BAIRRO}</td>
+				</tr>
+				<tr>
+				  <td class="info_nome">&Aacute;rea:</td>
+				  <td class="info_valor">{AREA} <!--{AREA_TOTAL}--></td>
+				</tr>
+				<tr>
+				  <td class="info_nome">Situa&ccedil;&atilde;o:</td>
+				  <td class="situacao_imovel">{SITUACAO_IMOVEL}</td>
+				</tr>
+				<tr>
+				  <td  class="info_nome">Descri&ccedil;&atilde;o:</td>
+				</tr>
+				<tr>
+				  <td class="info_valor" colspan="2">
+					  <div style="margin-left: 10">{DESCR}{VAL_COND_IPTU}</div>				  </td>
+				</tr>
+			  </tbody>
+			</table>			</td>
+			<td height="240" valign="top" width="320">
+			  <img id="foto" src="{IMG_IMOV}" border="1">
+			  <div id="map_canvas" style="display: none; width: 400px; height: 300px"></div>			</td>
+		  </tr>
+		</tbody>
+	  </table>
+	  </td>
+	</tr>
+  </tbody>
+</table>
+
+<!-- Informacoes adicionais para uso livre (indexar Google Maps, por exemplo)
+{TIPOLOGR} {LOGRADOURO} {NUMERO} {COMPLEMENTO} {CEP} {NOMECIDADE} {UF}
+-->
+
+</body>
+<!-- fotos.shtml -->
+</html>

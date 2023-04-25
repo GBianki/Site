@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Imobiliária São Geraldo</title>
+<STYLE>A:link {
+	FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:active {
+	FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+</STYLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="790" border="0" cellspacing="0" cellpadding="0" align="center" background="">
+  <tr>
+    <td><img src="imgs/imob.gif" width="80" height="81"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" bgcolor="#FFFFFF" height="236">
+  <tr>
+    <td height="259" width="100%" valign="top">
+      <table width="100%" border="0" cellspacing="2">
+        <tr>
+          <td width="100%" valign="top">
+			<table width="100%" border="0">
+		    <tr>
+      	      <td width=50 valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><small>Código:<small></b></td>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{COD_IMOV}<br></font></td>
+			</tr>
+			<tr>
+              <td width=50 valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><small>{ALUG_VENDA}<small></b></td>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{VAL_IMOV}<br></font></td>
+			</tr>
+            <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Endereço:</b></font></td>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{END}</font></td>
+			</tr>
+			<tr>
+			  <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Bairro:</b></font></td>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{BAIRRO}</font></td>
+			</tr>
+			<tr>
+			  <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><br><b>Descrição
+             :</b></font></td>
+			</tr>
+			<tr>
+			 	<td colspan=2><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{DESCR}{VAL_COND_IPTU}</font></td></tr>
+			</tr>
+		   </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div align="center"><font size="3" color="#000000">............................................................................................</font></div>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="2">
+        <tr>
+          <td width="70%">&nbsp;</td>
+          <td>
+            <div align="right"><font size="1" color="#FFFFFF"><a href="javascript:window.close()"><img src="fechar.gif" width="98" height="23" border="0"></a></font></div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
