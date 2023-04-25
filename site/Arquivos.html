@@ -1,0 +1,894 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+
+  
+  <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+  <title>Arquivos do Site do Imobiliar</title>
+
+  
+</head><body>
+<center><strong><font color="#006699" face="Helvetica">
+ARQUIVOS DE DADOS DO SITE DO IMOBILIAR</font></strong></center>
+
+
+
+<hr id="null">
+&nbsp;&nbsp;
+<p><font color="#0000ff"><strong>1. INTRODUÇÃO</strong></font></p>
+
+
+
+<font color="#0000ff">O site do imobiliar está implementado em
+PHP utilizando páginas HTML em forma de "templates" conforme
+explanado em Instrucoes.html. O servidor da imobiliária envia,
+via FTP, os arquivos de dados e de imagens atualizados para o provedor do site automaticamente e
+em horários pré-estabelecidos. <br>
+<br>
+Com o objetivo de depender minimamente de recursos adicionais exigidos
+do provedor, os dados enviados e manipulados pelo PHP estão na
+forma de arquivos texto de UNIX, ou seja, cada linha encerrada com o
+caracter "line feed" (LF) cujo valor decimal é 10 (0x0A em
+hexadecimal). Em geral, cada linha representa um registro de
+informações e é composta de um ou mais campos de
+tamanho fixo.<br>
+<br>
+</font>
+<p><font color="#0000ff"><strong>2. FORMATO DOS ARQUIVOS DE DADOS<br>
+</strong></font></p>
+
+
+
+<font color="#0000ff">Os arquivos de dados são enviados para a pasta ".../dados" no site. Cada arquivo contém informações específicas,
+analogamente a tabelas em banco de dados. Assim, existem arquivos de
+cidades, bairros, imóveis de venda, usuários, etc., cada qual formado
+por campos pré-definidos como descrito a seguir.<br>&nbsp;<br>
+</font>
+<p><font color="#0000ff"><strong>2.1. CIDADES</strong></font></p>
+
+
+
+<font color="#0000ff">A lista de cidades para locação e
+vendas estão em arquivos separados, respectivamente
+"cidades.txt" e "cidadesvendas.txt". <br>
+Ambos arquivos possuem o mesmo formato de registro:<br>
+<br>
+</font>
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO<br>
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Nome da Cidade<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">40<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Código da Cidade<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">6<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">UF<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">2<br>
+      </td>
+    </tr>
+<tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">1<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<font color="#0000ff"><br>
+As cidades que constam nestes arquivos são apenas aquelas que
+constam na carteira de imóveis da imobiliária.<br>
+<br>
+</font>
+<p><font color="#0000ff"><strong>2.2. BAIRROS</strong></font></p>
+
+
+
+<font color="#0000ff">A lista de bairros para locação e
+vendas estão em arquivos separados, respectivamente
+"bairros_loc.txt" e "bairros_venda.txt". <br>
+Ambos arquivos possuem o mesmo formato de registro:<br>
+<br>
+</font>
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Código do Bairro<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">5<br>
+      </td>
+    </tr>
+ <tr>
+<td style="vertical-align: top;">Nome do Bairro<br>
+</td>
+<td style="vertical-align: top; text-align: right;"><span style="color: rgb(51, 0, 51);">60</span><br>
+</td>
+</tr>
+    <tr>
+      <td style="vertical-align: top;">Código da Cidade<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">6<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">1<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<font color="#0000ff"><br>
+</font><font color="#0000ff">Os bairros que constam nestes arquivos
+são apenas aqueles que constam na carteira de imóveis da
+imobiliária.<br>
+</font><br>
+
+
+
+<p><font color="#0000ff"><strong>2.3. TIPOS DE IMÓVEIS<br>
+</strong></font></p>
+
+
+
+<font color="#0000ff">Os tipos de imóveis para locação e
+vendas estão em arquivos separados, respectivamente
+"tipo_loc.txt" e "tipo_venda.txt". <br>
+Ambos arquivos possuem o mesmo formato de registro:<br>
+<br>
+</font>
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Código do Tipo de Imóvel<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">4<br>
+      </td>
+    </tr>
+ <tr>
+<td style="vertical-align: top;">Descrição do Tipo de Imóvel
+</td>
+<td style="vertical-align: top; text-align: right;">30<br>
+</td>
+</tr>
+ <tr>
+<td style="vertical-align: top;">Comercial ou Residencial (C ou R)<br>
+</td>
+<td style="vertical-align: top; text-align: right;">1<br>
+</td>
+</tr>
+    <tr>
+      <td style="vertical-align: top;">Indicador de Dormitório (S ou N)<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">1<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<font color="#0000ff"><br>
+Devem ser apresentados ao usuário os registros de acordo com a
+opção de pesquisa de imóveis residencias ou
+comerciais. Também deve ser apresentada a opção de
+número de dormitórios quando o campo "Indicador de
+Dormitório" contiver o valor 'S'.<br>
+<br>
+</font>
+<p><font color="#0000ff"><strong>2.4. LISTA DE IMÓVEIS<br>
+</strong></font>
+
+<font color="#0000ff">A lista de imóveis para locação e
+vendas estão em arquivos separados, respectivamente
+"imov.txt" e "imovenda.txt". <br>
+Ambos arquivos possuem o mesmo formato de registro:</font><br>
+</p>
+
+
+
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Código do Imóvel<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">8<br>
+      </td>
+    </tr>
+ <tr>
+<td style="vertical-align: top;">Tipo do Imóvel
+</td>
+<td style="vertical-align: top; text-align: right;">2<br>
+</td>
+</tr>
+ <tr>
+<td style="vertical-align: top;">Código da Cidade
+</td>
+<td style="vertical-align: top; text-align: right;">6<br>
+</td>
+</tr>
+ <tr>
+<td style="vertical-align: top;">Nome do Bairro<br>
+</td>
+<td style="vertical-align: top; text-align: right;">60<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Reservado
+</td>
+<td style="vertical-align: top; text-align: right;">3<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Endereço<br>
+</td>
+<td style="vertical-align: top; text-align: right;">85<br>
+</td>
+</tr>
+ <tr>
+<td style="vertical-align: top;">Imediação - parte 1 (Obs.3)<br>
+</td>
+<td style="vertical-align: top; text-align: right;">30<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Quantidade de Dormitórios<br>
+</td>
+<td style="vertical-align: top; text-align: right;">2<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Nome do Prédio<br>
+</td>
+<td style="vertical-align: top; text-align: right;">30<br>
+</td>
+</tr>
+ <tr>
+<td style="vertical-align: top;">Valor (Obs.1)<br>
+</td>
+<td style="vertical-align: top; text-align: right;">12<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Valor Condomínio (Obs.1)<br>
+</td><td style="vertical-align: top; text-align: right;">12<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Valor IPTU (Obs.1)<br>
+</td>
+<td style="vertical-align: top; text-align: right;">12<br>
+</td>
+</tr>
+ <tr>
+<td style="vertical-align: top;"><span style="color: rgb(0, 0, 0);">Código da Situação do Imóvel</span><br>
+</td>
+<td style="vertical-align: top; text-align: right;">3<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Comercial ou Residencial (C ou R)
+</td>
+<td style="vertical-align: top; text-align: right;">1<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; color: rgb(0, 0, 0);">Código da Lista de Características do Imóvel
+</td>
+<td style="vertical-align: top; text-align: right;">8<br>
+</td>
+</tr>
+ <tr>
+<td style="vertical-align: top;">Área Útil (Obs.2)<br>
+</td>
+<td style="vertical-align: top; text-align: right;">8<br>
+</td>
+</tr>
+
+    <tr>
+      <td style="vertical-align: top;">Tamanho do tipo de logradouro no endereço<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">2<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Tamanho do logradouro no endereço</td>
+      <td style="text-align: right; vertical-align: top;">2<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Tamanho do número no endereço</td>
+      <td style="text-align: right; vertical-align: top;">2<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">CEP<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">8<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Vagas de estacionamento<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">3<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Área Total (Obs.2)<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">8<br>
+      </td>
+    </tr>
+<tr>
+  <td valign="top">Imediação - parte 2 (Obs.3)<br>
+  </td>
+  <td valign="top" align="right">110<br>
+  </td>
+</tr>
+<tr>
+  <td valign="top">Latitude<br>
+  </td>
+  <td valign="top" align="right">16<br>
+  </td>
+</tr>
+<tr>
+  <td valign="top">Longitude<br>
+  </td>
+  <td valign="top" align="right">16<br>
+  </td>
+</tr>
+<tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">1<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<font color="#0000ff"><br><span style="color: rgb(0, 0, 255);">OBSERVAÇÕES:<br>
+(1) O
+formato dos valores é 999999999[,99] sem preencimendo de zeros
+não significativos e alinhado à esquerda.</span><br style="color: rgb(0, 0, 255);">
+<span style="color: rgb(0, 0, 255);">(2) O formato da área é 99999[.99] </span></font><font style="color: rgb(0, 0, 255);" color="#0000ff">sem preencimendo de zeros não significativos e alinhado à esquerda.<br>
+(3) O campo Imediação foi ampliado e seu conteúdo completo é obtido com a concatenação da parte1 com a parte 2.</font><br style="color: rgb(0, 0, 255);">
+
+
+<font color="#0000ff"><br>
+Estes arquivos possuem todos os imóveis da carteira da
+imobiliária que estejam disponibilizados para
+comercialização.<br>
+
+</font>
+<p><br>
+<font color="#0000ff"><strong>2.5. TABELA DE CARACTERÍSTICAS<br>
+</strong></font></p>
+
+
+
+<font color="#0000ff">Os imóveis possuem características
+codificadas cuja lista completa se encontra no arquivo "carac.txt" com
+o seguinte formato de registro: <br>
+<br>
+</font>
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Código da Característica<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">4<br>
+      </td>
+    </tr>
+ <tr>
+<td style="vertical-align: top;">Descrição da Característica
+</td>
+<td style="vertical-align: top; text-align: right;">25<br>
+</td>
+</tr>
+ <tr>
+<td style="vertical-align: top;">Reservado<br>
+</td>
+<td style="vertical-align: top; text-align: right;">11<br>
+</td>
+</tr>
+    
+    <tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">1<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<font color="#0000ff"><br>
+Este arquivo pode ser utilizado, opcionalmente, para o usuário
+restringir a pesquisa conforme algumas características
+desejadas. Se desejado, a lista que consta neste arquivo pode ser
+exibida na página e as opções marcadas
+deverão ser utilizadas na seleção dos
+imóveis.<br>
+<br>
+</font>
+<p><font color="#0000ff"><strong>2.6. DESCRIÇÃO DOS IMÓVEIS<br>
+</strong></font></p>
+
+
+
+<font color="#0000ff">Cada imóvel pode possuir uma
+descrição por extenso de suas características, a
+qual se encontra no arquivo "</font><font color="#0000ff">imovdescr</font><font color="#0000ff">.txt". Este arquivo
+possui um formato de registro diferente dos demais&nbsp; pois possui tamanho variável:<br>
+<br>
+</font>
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Código do Imóvel<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">8<br>
+      </td>
+    </tr>
+ <tr>
+<td style="vertical-align: top;">Características por Extenso<br>
+
+</td>
+<td style="vertical-align: top; text-align: right;">variável<br>
+</td>
+</tr>
+
+    <tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="vertical-align: top; text-align: right;">1<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<font color="#0000ff"><br>
+</font><font color="#0000ff">Este arquivo é utilizado na exibição da tela detalhada do imóvel juntamente com as suas fotos. Se o
+imóvel em questão possuir uma descrição por extenso neste arquivo
+então a mesma deverá ser exibida.<br>
+</font><br>
+
+
+
+<font color="#0000ff"><strong></strong></font><font color="#0000ff"><strong></strong></font>
+
+<font color="#0000ff"><strong></strong></font><font color="#0000ff"><strong></strong></font>
+<p><font color="#0000ff"><strong>2.7. CARACTERÍSTICAS DOS IMÓVEIS<br>
+</strong></font></p>
+
+
+
+<font color="#0000ff">Cada imóvel possui uma lista de
+características codificadas que se encontra no arquivo
+"caract_imo.txt". Este arquivo possui o seguinte formato de registro:<br>
+<br>
+</font>
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; color: rgb(0, 0, 0);">Código da Lista de Características do Imóvel
+      </td>
+      <td style="vertical-align: top; text-align: right;">8<br>
+      </td>
+    </tr>
+ <tr>
+<td style="vertical-align: top;">Quantidade (depende da característica, por exemplo nro de dormitórios, área em m², etc.)<br>
+
+</td>
+<td style="vertical-align: top; text-align: right;">6<br>
+</td>
+</tr>
+ <tr>
+<td style="vertical-align: top;">Complemento da Característica<br>
+</td>
+<td style="vertical-align: top; text-align: right;">10<br>
+</td>
+</tr>
+    
+    <tr>
+      <td style="vertical-align: top;">Código da Característica
+      </td>
+      <td style="vertical-align: top; text-align: right;">4<br>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Características por Extenso</td>
+      <td style="text-align: right; vertical-align: top;">25<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Indicador de Quantidade (S=usa campo Quantidade ou N=sem Quantidade)<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Unidade da Quantidade (m², etc.)<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">10<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Tipo da Característica (INT=interna ou CON=infraestrutura do condomínio)</td>
+      <td style="text-align: right; vertical-align: top;">3<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">1<br>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+<font color="#0000ff"><br>
+</font><font color="#0000ff">Este arquivo pode ser utilizado em duas
+situações no site. A primeira na montagem da lista de
+características exibida na tela detalhada do imóvel
+juntamente com as suas fotos. Se o imóvel em questão
+não possuir uma descrição por extenso no arquivo
+"imovdescr.txt" então deverá ser montada uma
+descrição a partir da concatenação das
+características deste imóvel que constarem no </font><font color="#0000ff">"caract_imo.txt"</font><font color="#0000ff">.<br>
+<br>
+A segunda possibilidade de utilização é opcional e só
+utilizada quando se disponibiliza a lista de
+características("carac.txt") como opção na tela de
+pesquisa. Neste caso, só se exibirá como resultado da
+pesquisa os imóveis que contiverem as características
+que foram selecionadas na tela de pesquisa.</font><br>
+
+
+
+<font color="#0000ff"><strong></strong></font><font color="#0000ff"><strong></strong></font><font color="#0000ff"><strong></strong></font><font color="#0000ff"><strong></strong></font><br>
+
+
+
+<font color="#0000ff"><strong></strong></font>
+<p><font color="#0000ff"><strong>2.8. TABELA DE SITUAÇÕES DO IMÓVEL<br>
+</strong></font></p>
+
+
+&nbsp; <font color="#0000ff">Cada imóvel possui uma situação cujo código se refere à</font><font color="#0000ff">&nbsp; lista </font><font color="#0000ff">codificada de situações que se encontra no arquivo
+"situacaoimo.txt", o qual possui o seguinte formato de registro:<br>
+</font><font color="#0000ff"><br>
+</font>
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Código da Situação do Imóvel
+      </td>
+      <td style="vertical-align: top; text-align: right;">3<br>
+      </td>
+    </tr>
+ <tr>
+<td style="vertical-align: top;">Descrição da Situação do Imóvel<br>
+
+</td>
+<td style="vertical-align: top; text-align: right;">variável<br>
+</td>
+</tr>
+ 
+    
+    
+    <tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">1<br>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+<font color="#0000ff"><br>
+</font><font color="#0000ff">Este arquivo pode ser utilizado na
+montagem da descrição do imóvel ou na filtragem
+dos imóveis conforme sua situação.</font><font color="#0000ff"><br><br>
+<br></font>
+<p><font color="#0000ff"><strong>2.9. TABELA DE IMÓVEIS EM DESTAQUE<br>
+</strong></font></p>
+
+
+
+
+&nbsp; <font color="#0000ff">Os imóveis que foram marcados no sistema para aparecerem no site como destaque serão relacionados </font><font color="#0000ff">no arquivo
+"destaques.txt", o qual possui o seguinte formato de registro:<br>
+</font><font color="#0000ff"><br>
+</font>
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Tipo de destaque (L para locação e V para venda)<br>
+</td>
+      <td style="vertical-align: top; text-align: right;">1<br>
+      </td>
+    </tr>
+ <tr>
+<td style="vertical-align: top;">Código do Imóvel<br>
+
+</td>
+<td style="vertical-align: top; text-align: right;">8<br>
+</td>
+</tr>
+ 
+    
+    
+    <tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">1<br>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+
+
+<font color="#0000ff"><br>
+</font><font color="#0000ff">Este arquivo pode ser utilizado para
+montar a área dos imóveis destacados ou em oferta.</font><font color="#0000ff"><br></font><br>
+
+
+<font color="#0000ff">
+<br>
+</font>
+
+
+<font color="#0000ff"><br>
+</font><font color="#0000ff"><strong></strong></font>
+<p><font color="#0000ff"><strong>2.10. TABELA DE DESCRIÇÕES DAS FOTOS<br>
+</strong></font></p>
+
+
+
+
+&nbsp; <font color="#0000ff">Os arquivos de fotos dos imóveis possuem a 
+descrição da imagem embutido no próprio nome do arquivo. Um dos 
+componentes do nome do arquivo é uma sigla que identifica o ambiente da 
+foto, as quais estão relacionadas </font><font color="#0000ff">no arquivo
+"descrfoto.txt", o qual possui o seguinte formato de registro:<br>
+</font><font color="#0000ff"><br>
+</font>
+<table style="width: 600px; text-align: left;" cellspacing="2" cellpadding="2" border="1">
+
+
+
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);">CAMPO
+      </th>
+      <th style="vertical-align: top; text-align: center; white-space: nowrap; background-color: rgb(204, 204, 204);" width="100">TAMANHO<br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Descrição do ambiente da foto<br>
+</td>
+      <td style="vertical-align: top; text-align: right;">50<br>
+      </td>
+    </tr>
+ <tr>
+<td style="vertical-align: top;">Sigla do ambiente da foto<br>
+
+</td>
+<td style="vertical-align: top; text-align: right;">2<br>
+</td>
+</tr>
+ 
+    
+    
+    <tr>
+      <td style="vertical-align: top;">LF<br>
+      </td>
+      <td style="text-align: right; vertical-align: top;">1<br>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+
+
+<font color="#0000ff"><br>
+</font><font color="#0000ff">Este arquivo pode ser utilizado para
+montar a descrição de cada foto dos imóveis, como descrito no item 3 a seguir.</font><font color="#0000ff"><br></font><br>
+
+
+<font color="#0000ff">
+<br>
+</font>
+
+
+<font color="#0000ff"><br>
+</font><font color="#0000ff"><strong></strong></font><font color="#0000ff"><strong></strong></font><font color="#0000ff"><strong>3. FOTOS DOS IMÓVEIS<br>
+<br>
+</strong></font><font color="#0000ff">Os arquivos de imagens contendo as
+ fotos dos imóveis são enviados para a pasta ".../Fotos" no site. Nesta 
+pasta é criado um subdiretório para cada imóvel identificado pelo código
+ do próprio imóvel. No subdiretório de cada imóvel são gravados os 
+arquivos de fotos (formato JPEG) que possuem uma nomenclatura que 
+obedece o formato descrito a seguir.<br>
+</font>
+<blockquote><font color="#0000ff"><u>Nome do Arquivo</u>: AAAAAAAASS_YY_Z.JPG</font><br>
+  <font color="#0000ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ou</font><br>
+  <font color="#0000ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+ &nbsp;&nbsp;&nbsp; AAAAAAAASS_YY_Z-CCCCC.JPG</font><br>
+  <br>
+  <font color="#0000ff"><u>Onde</u>:</font><br>
+  <font color="#0000ff">AAAAAAAA : Código do Imóvel com 8 digitos preenchidos com zeros a esquerda.</font><br>
+  <br>
+  <font color="#0000ff">SS:&nbsp; Código de ordenação da foto constando de 2 caracteres alfabéticos.</font><br>
+  <br>
+  <font color="#0000ff"><font color="#0000ff">YY: Sigla que identifica de qual ambiente é a imagem, podendo assumir os valores de siglas contidas no arquivo </font><font color="#0000ff">"descrfoto.txt", descrito no item 2.10.</font><br>
+
+    <br>
+Z : Sequenciador de fotos </font><font color="#0000ff">em um mesmo ambiente composto de um dígito (apenas para uso interno do sistema).</font><br>
+  <font color="#0000ff">&nbsp;</font><br>
+  <font color="#0000ff">CCCCC :&nbsp; Complemento opcional da descrição que possui tamanho livre e que deve ser concatenado com a descrição da sigla.</font><br>
+</blockquote>
+<font color="#0000ff">Este formato de nome permite a manipulação no site exatamente como efetuada no Imobiliar. <br>
+  <br>
+Em primeiro lugar, para obter a ordenação das fotos determinada pelo 
+usuário basta seguir a ordem alfabética dos nomes dos arquivos. Ou seja:
+ 00000001AA_.... =&gt; primeira foto,&nbsp; </font><font color="#0000ff"><font color="#0000ff">00000001AB_....</font></font><font color="#0000ff"><font color="#0000ff"><font color="#0000ff"> =&gt; segunda foto,</font></font> </font><font color="#0000ff"><font color="#0000ff">00000001AC_....</font></font><font color="#0000ff"><font color="#0000ff"><font color="#0000ff"> =&gt; terceira foto,</font> </font></font><font color="#0000ff"><font color="#0000ff"><font color="#0000ff">00000001AD_....</font> </font></font><font color="#0000ff"><font color="#0000ff"><font color="#0000ff">=&gt; quarta foto,</font></font> etc.<br>
+  <br>
+Em segundo lugar a descrição da foto é obtida pela concatenação dos campos YY e CCCCC da seguinte maneira:<br>
+</font>
+<ol>
+  <li><font color="#0000ff">Obtem-se a descrição da sigla pesquisando a sigla YY no arquivo "descrfoto.txt".</font></li>
+  <li><font color="#0000ff">Caso o nome do arquivo contenha o campo CCCCC então concatena-se a descrição obtida com o complemento. Exemplos: </font><font color="#0000ff">00000001AA_fa_0.jpg =&gt; Fachada ; </font><font color="#0000ff">00000001AA_su_0-principal.jpg =&gt; Suíte principal.<br>
+    </font></li>
+</ol>
+
+<font color="#0000ff">
+<br>
+</font>
+
+
+<font color="#0000ff"><br>
+</font><font color="#0000ff"><strong></strong></font><font color="#0000ff"><strong>4. ALTERAÇÃO DE FORMATO DOS ARQUIVOS<br>
+<br>
+</strong></font><font color="#0000ff">Com a evolução do
+Sistema Imobiliar em função de novas necessidades dos
+usuários, poderão existir </font><font color="#0000ff">alterações em
+alguns arquivos para agregar novas informações. A regra
+para estes casos, será a de não alterar os campos
+existentes e apenas complementar o registro ao final da linha
+existente. Ou seja, novos campos ou informações
+adicionais aos campos existentes serão posicionados após
+o último campo e antes do LF ("line feed") de cada linha.<br>
+<br>
+Assim, o tratamento destes arquivos deverá levar em conta esta
+possibilidade de alteração de formato. Mesmo que
+não venha a utilizar eventuais novos campos, o programa que
+tratar estes arquivos deverá aceitar registros maiores que os
+inicialmente implementados.<br>
+<br>
+<br>
+<br>
+</font>
+</body></html>
