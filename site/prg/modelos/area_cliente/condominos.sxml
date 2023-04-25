@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="{MODEL_CHARSET}" ?>
+<!-- {DICA} -->
+
+<sessao id="{SESSID}">
+ <resultado>
+  <situacao>SUCESSO</situacao>
+  <conteudo>CONDOMINOS</conteudo>
+ </resultado>
+
+ <informacoes_gerais>
+  <usuario><![CDATA[{USUARIO}]]></usuario>
+  <assessor_nome><![CDATA[{ASSESSOR_NOME}]]></assessor_nome>
+  <condominio_codigo><![CDATA[{CONDOM_COD}]]></condominio_codigo>
+  <condominio_nome><![CDATA[{CONDOM_NOME}]]></condominio_nome>
+  <data_processamento>{DATA_ARQUIVO}</data_processamento>
+  <data_atual>{DATA_ATUAL}</data_atual>
+</informacoes_gerais>
+
+ <condominos>
+<!-- BEGIN DYNAMIC BLOCK: CONDONIMO -->
+  <condomino>
+   <unidade>{UNID}</unidade>
+   <nome>{NOME}</nome>
+   <cidade>{CIDADE}</cidade>
+   <cep>{CEP}</cep>
+   <endereco>{ENDER}</endereco>{OUTRAS_INFOS}
+  </condomino>
+<!-- END DYNAMIC BLOCK: CONDONIMO -->
+ </condominos>
+</sessao>
