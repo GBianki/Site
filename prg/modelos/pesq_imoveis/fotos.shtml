@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Imobiliar</title>
+<title>InetSoft - Sistema Imobiliar</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link href="modelos/padrao.css" rel="stylesheet" type="text/css">
 <style>
@@ -44,17 +44,40 @@ var Fotos = [''];
 
 <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" onLoad="Inicializar('{TIPO_COMERC}')" onUnload="GMapsEnd()">
 
-<!-- Menu -->
-<div align="center" id="superior-bg">
-	<div>
-	   <img src="../../../img/sup.jpg" width="1000" height="114" border="0" usemap="#menu_sup" />
-<map name="menu_sup">
-  <area shape="rect" coords="53,5,168,110" href="index.html">
-  <area shape="rect" coords="494,81,577,106" href="contato.html">
-  <area shape="rect" coords="395,82,478,107" href="vendas.html">
-  <area shape="rect" coords="291,82,374,107" href="alugueis.html"><area shape="rect" coords="189,82,272,107" href="empresa.html">
-</map>
+<body>
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src=img/logo.png width=10%>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.php">Página Inicial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="empresa.php">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="avaliacao.php">Anuncie Conosco</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.php">Contato</a>
+        </li>
+      </ul>
+    </div>
   </div>
+</nav>
+  </div>
+  <div>
+  <center>
+  <div style="height:8px;"></div>
+<? require_once(dirname(__FILE__) . '/prg/pesqImov.php'); ?>
+  </div></center>
+</div>
+<!-- end menu -->
   <div>
   <div style="height:8px;"></div>
 <form name="form1" method="post" action="">
