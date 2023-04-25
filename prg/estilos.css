@@ -1,0 +1,135 @@
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #787878;
+	}
+
+input {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	border: yes;
+	background-color: #787878;
+	}
+
+a:link {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 14px;
+	color: #666666;
+	text-decoration: none;
+	}
+
+a:visited {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 14px;
+	color: #666666;
+	text-decoration: none;
+	}
+
+a:hover {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 14px;
+	color: #990000;
+	text-decoration: underline;
+	}
+
+select {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	border: yes;
+	background-color: #787878;
+	}
+
+textarea {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	border: yes;
+	background-color: #787878;
+	}
+
+tbody {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+	}
+
+.fonte_site {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-family: Tahoma, Arial;
+	font-size: 14px;
+	color: #000000;
+	}
+
+.titulos_capa {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+	color: #787878;
+	}
+
+.titulos {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 30px;
+	text-decoration: none;
+	color: #333333;
+	}
+	
+.font_rodape_peq {
+	font-family: 'Nunito', sans-serif;
+ 	font-style: normal;
+  	font-weight: 400;
+	font-size: 13px;
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+div#superior-bg { 
+	width:100%;
+	height:196px;
+	float:center;
+	background: #FF6600 url(/img/sup_fundo.jpg) top repeat-x; 
+	position: relative;
+	}
+
+div#rodape-bg { 
+	width:100%;
+	height:137px;
+	float:center;
+	background: #FF6600 url(/img/inf_fundo.jpg) top repeat-x;
+	position: relative;
+	}
+
+div#capa_produtos { width:100%; height:57px; float:center; background: #162F58 }
+
+div#meio { width:100%; float:center; background: #000000 url(imagens/meio_fundo.jpg) top repeat-x; }
+
+div#imagem_sup { width:100%; float:center; background: #999999 url(imagens/fundo_topo.jpg) top repeat-x; }
+
+.obrigatorio_on{
+border : 1px solid red;
+	
+}
