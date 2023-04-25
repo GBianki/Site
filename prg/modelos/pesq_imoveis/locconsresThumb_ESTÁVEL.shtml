@@ -57,13 +57,6 @@
     </div>
   </div>
 </nav>
-  </div>
-  <div>
-  <center>
-  <div style="height:8px;"></div>
-<? require_once(dirname(__FILE__) . '/prg/pesqImov.php'); ?>
-  </div></center>
-</div>
 <!-- end menu -->
 	  <table width="980" height="30" border="0" align="center" cellpadding="0" cellspacing="0">
 		<tbody>
