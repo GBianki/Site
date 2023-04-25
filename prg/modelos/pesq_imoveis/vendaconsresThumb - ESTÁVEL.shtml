@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>Imobili&aacute;ria S&atilde;o Geraldo</title>
+<title>InetSoft - Sistema Imobiliar</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 
 <link href="modelos/padrao.css" rel="stylesheet" type="text/css">
@@ -28,20 +28,33 @@ function wopen(cod, pos, foto)
 
 <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
 
-<!-- Menu -->
-<div align="center" id="superior-bg">
-	<div>
-	   <img src="img/sup.jpg" width="1000" height="114" border="0" usemap="#menu_sup" />
-<map name="menu_sup">
-  <area shape="rect" coords="497,82,576,105" href="/seguros.php">
-  <area shape="rect" coords="53,5,168,110" href="/index.php">
-  <area shape="rect" coords="598,81,681,106" href="/contato.php">
-  <area shape="rect" coords="395,82,469,106" href="/vendas.php">
-  <area shape="rect" coords="291,82,374,107" href="/alugueis.php">
-  <area shape="rect" coords="189,82,272,107" href="/empresa.php">
-</map>
+<body>
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src=img/logo.png width=10%>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.php">Página Inicial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="empresa.php">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="avaliacao.php">Anuncie Conosco</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.php">Contato</a>
+        </li>
+      </ul>
+    </div>
   </div>
-  <div>
+</nav>
+
   <div id="searchbar" style="height:8px;"></div>
 {BARRADEPESQUISA} 
   </div>
@@ -68,23 +81,24 @@ function wopen(cod, pos, foto)
 				  <td width="{PRIMEIRACOL}" valign="middle" style="{ESTILOPRIMEIRACOL}">
 					<div align="center" {EXIBE_THUMB}>
 					  <a href="javascript:void(0)" onClick="{_CLICK}">
-					  <img src="{IMG_SRC}" width="230" height="138" border="0" alt="Clique para ver mais fotos."> <!-- {IMG_FT} -->
+					  <img src="{IMG_SRC}" width="200" height="138" border="0" alt="Clique para ver mais fotos."> <!-- {IMG_FT} -->
 				      </a></div>
 				  </td>
 				  <td width="{SEGUNDACOL}" valign="middle" {TAGSEGUNDACOL} style="{ESTILOSEGUNDACOL}">
 				  	<span>
-					    <div align="left" {EXIBE_IMOVEL}>
-						  <font size="2">C&oacute;digo:&nbsp;{COD}</font>
-						  <br><br>
-						  <font size="4"><b>Bairro:</b>&nbsp;{BAIRRO}</font>
+				    </span>
+				  	<div align="left" {EXIBE_IMOVEL}>
+					  <span><font size="2">C&Oacute;DIGO</font><font size="2">:&nbsp;{COD}</font>
+					  <br>
+						  <font size="4"><b>BAIRRO:</b>&nbsp;{BAIRRO}</font>
 						  <br>
-						  <b>&Aacute;rea: {AREA}</b>
-						  <br><br>
-						</div>
-					  	<div align="left">
+						  <font size="4"><b>END:</b>&nbsp;{END}</font>
+						  <br>
+						  <b>&Aacute;REA: {AREA}</b>
+						  <br>
 					  		<b>{VAL}</b>
-					  	</div>
-				  	</span>
+				  	  </span></div>
+				  	<span></span>
 				  </td>
 				  <td width="{TERCEIRACOL}" valign="middle" style="{ESTILOTERCEIRACOL}">
 				  
@@ -104,15 +118,45 @@ function wopen(cod, pos, foto)
 </table>
 
 <!-- menu inf -->
-<div align="center">
-	<div id="rodape-bg">
-	   <img src="img/inf.jpg" width="1000" height="137" border="0" usemap="#Menu_Inf" />
-<map name="Menu_Inf"><area shape="rect" coords="34,31,358,127" href="empresa.html">
-</map>	</div>
-	<div style="background-color: #FF6600; height:20;">
-	   <span class="font_rodape_peq">As informa&ccedil;&otilde;es e valores de im&oacute;veis deste site est&atilde;o sujeitas a altera&ccedil;&otilde;es sem aviso pr&eacute;vio.</span>	</div>
-</div>
+<footer class="bg-light text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Horário de Atendimento</h5>
 
-</body>
+        <p>
+          Atendemos de Segunda à Sexta-feira<br>
+          Das 8:30 às 17:30
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Localização</h5>
+
+        <p>
+          Nossa sede está localizada em:<br>
+          Rua Felipe de Oliveira, 1397 - Petrópolis<br>
+          Porto Alegre - RS
+        </p>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Site feito por:
+    <a class="text-dark" href="https://inetsoft.com.br/">InetSoft</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- end menu inf -->
 <!-- vendaconsresThumb.shtml -->
 </html>
